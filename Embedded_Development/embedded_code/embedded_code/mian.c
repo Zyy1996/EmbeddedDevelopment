@@ -8,6 +8,7 @@ int a = 0;
 
 int main(void)
 {
+	printf("eeeeeeeeeeeeeeeeeeeeeeee");
 	printf("qweq");
 	convert_StrToDec(dat, 5, &a, 7);
 	printf("%d\r\n", a);
@@ -15,3 +16,4 @@ int main(void)
 	scanf_s("%d" , &a);
 	return 0;
 }
+

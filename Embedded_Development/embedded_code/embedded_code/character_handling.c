@@ -2,8 +2,6 @@
 
 u8 revData[256] = { 0 };
 
-
-
 /**********************
 发现匹配的字符
 u8 *p  存储字符串的位置
@@ -185,3 +183,4 @@ void convert_StrToDec(u8 * pdata , u8 location, u32 *data, u8 num)
 		*data = number;
 	}
 }
+

@@ -4,8 +4,6 @@
 
 
 extern u8 revData[256];
-
-
 //发现匹配的字符串
 u8 find_strs(const char *p, u8 location, u8 length, const char * matched_character, u8 *endlocation);
 
@@ -23,7 +21,6 @@ u8 get_strDec(u8 *p, u8 location, u8 length, u8 *pout, u8 num);
 
 //将数字转换为字符串
 void convert_decToStr(u32 number, u8 *pout, u8 num);
-
 
 //将字符串转换为数字
 //“1231”转化为数字1231
