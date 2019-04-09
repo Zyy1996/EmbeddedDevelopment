@@ -26,4 +26,6 @@ void convert_decToStr(u32 number, u8 *pout, u8 num);
 //“1231”转化为数字1231
 void convert_StrToDec(u8 * pdata, u8 location, u32 *data, u8 num);
 
+//复制字符串
+void strcopy(u8 *pdata, u8 location, u8 *pout, u8 num);
 #endif

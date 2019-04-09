@@ -183,4 +183,9 @@ void convert_StrToDec(u8 * pdata , u8 location, u32 *data, u8 num)
 		*data = number;
 	}
 }
-
+//¸´ÖÆ×Ö·û´®
+void strcopy(u8 *pdata, u8 location, u8 *pout, u8 num)
+{
+	u8 i = 0;
+	for (i = 0; i < num; i++) pout[i] = pdata[location + i];
+}

@@ -21,10 +21,12 @@
   <ItemGroup>
     <ClCompile Include="character_handling.c" />
     <ClCompile Include="mian.c" />
+    <ClCompile Include="simulating_spi.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="character_handling.h" />
     <ClInclude Include="common.h" />
+    <ClInclude Include="simulating_spi.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt" />

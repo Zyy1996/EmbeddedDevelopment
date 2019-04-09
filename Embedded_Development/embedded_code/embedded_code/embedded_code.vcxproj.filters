@@ -21,12 +21,18 @@
     <ClCompile Include="character_handling.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="simulating_spi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="character_handling.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simulating_spi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
