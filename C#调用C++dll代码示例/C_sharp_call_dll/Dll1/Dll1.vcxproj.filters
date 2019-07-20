@@ -15,30 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mian.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="character_handling.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="simulating_spi.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="character_handling.h">
+    <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="common.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="simulating_spi.h">
+    <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Text.txt">
+    <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
-    </Text>
+    </ClCompile>
+    <ClCompile Include="Dll1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
