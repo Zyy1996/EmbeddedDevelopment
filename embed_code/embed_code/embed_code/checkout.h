@@ -1,20 +1,20 @@
 #pragma once
 #ifndef _CHECKOUT_H_
 /****************************************
-Ê¹ÓÃµÄcÎÄ¼þÊÇcheckout.c
-×÷ÓÃ£º
-·ÅÒ»Ð©×öÐ£ÑéµÄ´úÂë
+Ê¹ï¿½Ãµï¿½cï¿½Ä¼ï¿½ï¿½ï¿½checkout.c
+ï¿½ï¿½ï¿½Ã£ï¿½
+ï¿½ï¿½Ò»Ð©ï¿½ï¿½Ð£ï¿½ï¿½Ä´ï¿½ï¿½ï¿½
 
 ****************************************/
 
-//crc16Ð£ÑéÂë´úÂë
+//crc16Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 void InvertUint8(unsigned char* DesBuf, unsigned char* SrcBuf);
 void InvertUint16(unsigned short* DesBuf, unsigned short* SrcBuf);
 unsigned short CRC16_MODBUS(unsigned char* puchMsg, unsigned int usDataLen);
 
-//ÀÛ¼ÓÇ°ÃæµÄ×Ö½Ú×îºóÈ¡256µÄÄ£
+//ï¿½Û¼ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½È¡256ï¿½ï¿½Ä£
 
-
+dsdssddssddsdsdsdsdsdsfdffdf
 
 #endif
 
