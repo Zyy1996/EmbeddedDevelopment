@@ -14,10 +14,7 @@ unsigned short CRC16_MODBUS(unsigned char* puchMsg, unsigned int usDataLen);
 
 //�ۼ�ǰ����ֽ����ȡ256��ģ
 
-dsdssddssddsdsdsdsdsdsfdffdf
 
-sdsddsdsdsds
-sdfdsfdsfdsfddsfdsffsdsfd
 
 #endif
 
